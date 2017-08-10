@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13343EF5BA4DE8AA171857B0 /* libPods-WQBackgroundLocateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ECBA780FC3FF3FAA0871B4 /* libPods-WQBackgroundLocateDemo.a */; };
 		46FBC1D01F3BF5C4007BB4CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1CF1F3BF5C4007BB4CC /* main.m */; };
 		46FBC1D31F3BF5C4007BB4CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1D21F3BF5C4007BB4CC /* AppDelegate.m */; };
 		46FBC1D61F3BF5C4007BB4CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1D51F3BF5C4007BB4CC /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		46FBC1DE1F3BF5C4007BB4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBC1DC1F3BF5C4007BB4CC /* LaunchScreen.storyboard */; };
 		46FBC1E91F3BF5C4007BB4CC /* WQBackgroundLocateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1E81F3BF5C4007BB4CC /* WQBackgroundLocateDemoTests.m */; };
 		46FBC1F41F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1F31F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m */; };
+		CB7607DE19241A1A4ECC8879 /* libPods-WQBackgroundLocateDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AF122CE6A0A1C1CB1DEF8D /* libPods-WQBackgroundLocateDemoTests.a */; };
+		E39944E878555BFCFCB19A35 /* libPods-WQBackgroundLocateDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B30774EA1D76DC7B8F636480 /* libPods-WQBackgroundLocateDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C80B587999E7B6FC99A890B /* Pods-WQBackgroundLocateDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoTests/Pods-WQBackgroundLocateDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		44B885BBB186B1EAF0806203 /* Pods-WQBackgroundLocateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemo/Pods-WQBackgroundLocateDemo.release.xcconfig"; sourceTree = "<group>"; };
 		46FBC1CB1F3BF5C4007BB4CC /* WQBackgroundLocateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQBackgroundLocateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FBC1CF1F3BF5C4007BB4CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46FBC1D11F3BF5C4007BB4CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		46FBC1EF1F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQBackgroundLocateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FBC1F31F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQBackgroundLocateDemoUITests.m; sourceTree = "<group>"; };
 		46FBC1F51F3BF5C4007BB4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FDC9419ED8241A7A46BDE7 /* Pods-WQBackgroundLocateDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoTests/Pods-WQBackgroundLocateDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		844820E473E559ADDE114470 /* Pods-WQBackgroundLocateDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DCFDC2E8BE59A1F5288C925 /* Pods-WQBackgroundLocateDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B30774EA1D76DC7B8F636480 /* libPods-WQBackgroundLocateDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQBackgroundLocateDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AF122CE6A0A1C1CB1DEF8D /* libPods-WQBackgroundLocateDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQBackgroundLocateDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9ECBA780FC3FF3FAA0871B4 /* libPods-WQBackgroundLocateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQBackgroundLocateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FF0C23579149A34F4AF449 /* Pods-WQBackgroundLocateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemo/Pods-WQBackgroundLocateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13343EF5BA4DE8AA171857B0 /* libPods-WQBackgroundLocateDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7607DE19241A1A4ECC8879 /* libPods-WQBackgroundLocateDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E39944E878555BFCFCB19A35 /* libPods-WQBackgroundLocateDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08722B9D1DAA31BB3F46264D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7FF0C23579149A34F4AF449 /* Pods-WQBackgroundLocateDemo.debug.xcconfig */,
+				44B885BBB186B1EAF0806203 /* Pods-WQBackgroundLocateDemo.release.xcconfig */,
+				66FDC9419ED8241A7A46BDE7 /* Pods-WQBackgroundLocateDemoTests.debug.xcconfig */,
+				1C80B587999E7B6FC99A890B /* Pods-WQBackgroundLocateDemoTests.release.xcconfig */,
+				9DCFDC2E8BE59A1F5288C925 /* Pods-WQBackgroundLocateDemoUITests.debug.xcconfig */,
+				844820E473E559ADDE114470 /* Pods-WQBackgroundLocateDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		09EC50429DFB6E0DB62AEFAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9ECBA780FC3FF3FAA0871B4 /* libPods-WQBackgroundLocateDemo.a */,
+				C1AF122CE6A0A1C1CB1DEF8D /* libPods-WQBackgroundLocateDemoTests.a */,
+				B30774EA1D76DC7B8F636480 /* libPods-WQBackgroundLocateDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46FBC1C21F3BF5C4007BB4CC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				46FBC1E71F3BF5C4007BB4CC /* WQBackgroundLocateDemoTests */,
 				46FBC1F21F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests */,
 				46FBC1CC1F3BF5C4007BB4CC /* Products */,
+				08722B9D1DAA31BB3F46264D /* Pods */,
+				09EC50429DFB6E0DB62AEFAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46FBC1F81F3BF5C4007BB4CC /* Build configuration list for PBXNativeTarget "WQBackgroundLocateDemo" */;
 			buildPhases = (
+				19AEE662A66C131047E2E6CC /* [CP] Check Pods Manifest.lock */,
 				46FBC1C71F3BF5C4007BB4CC /* Sources */,
 				46FBC1C81F3BF5C4007BB4CC /* Frameworks */,
 				46FBC1C91F3BF5C4007BB4CC /* Resources */,
+				1EC2911776CCDF68626639CB /* [CP] Embed Pods Frameworks */,
+				1706AFA1D21E33CBD3336939 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46FBC1FB1F3BF5C4007BB4CC /* Build configuration list for PBXNativeTarget "WQBackgroundLocateDemoTests" */;
 			buildPhases = (
+				9A7255D73CA1D07FC71F3AF2 /* [CP] Check Pods Manifest.lock */,
 				46FBC1E01F3BF5C4007BB4CC /* Sources */,
 				46FBC1E11F3BF5C4007BB4CC /* Frameworks */,
 				46FBC1E21F3BF5C4007BB4CC /* Resources */,
+				154CB5A4A40CC049383495FF /* [CP] Embed Pods Frameworks */,
+				4296DBB69DD7431DC76C7AF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46FBC1FE1F3BF5C4007BB4CC /* Build configuration list for PBXNativeTarget "WQBackgroundLocateDemoUITests" */;
 			buildPhases = (
+				1E2AFDAC69AA3EC6BB14369A /* [CP] Check Pods Manifest.lock */,
 				46FBC1EB1F3BF5C4007BB4CC /* Sources */,
 				46FBC1EC1F3BF5C4007BB4CC /* Frameworks */,
 				46FBC1ED1F3BF5C4007BB4CC /* Resources */,
+				5FC8A6FC76BADA0458174CFE /* [CP] Embed Pods Frameworks */,
+				744CB8936C23D917D9CDAB2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +256,7 @@
 				TargetAttributes = {
 					46FBC1CA1F3BF5C4007BB4CC = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8E4UXBJ6TS;
 						ProvisioningStyle = Automatic;
 					};
 					46FBC1E31F3BF5C4007BB4CC = {
@@ -267,6 +317,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		154CB5A4A40CC049383495FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemoTests/Pods-WQBackgroundLocateDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1706AFA1D21E33CBD3336939 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemo/Pods-WQBackgroundLocateDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19AEE662A66C131047E2E6CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E2AFDAC69AA3EC6BB14369A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EC2911776CCDF68626639CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemo/Pods-WQBackgroundLocateDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4296DBB69DD7431DC76C7AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemoTests/Pods-WQBackgroundLocateDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC8A6FC76BADA0458174CFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744CB8936C23D917D9CDAB2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7255D73CA1D07FC71F3AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46FBC1C71F3BF5C4007BB4CC /* Sources */ = {
@@ -424,9 +612,12 @@
 		};
 		46FBC1F91F3BF5C4007BB4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FF0C23579149A34F4AF449 /* Pods-WQBackgroundLocateDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E4UXBJ6TS;
 				INFOPLIST_FILE = WQBackgroundLocateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shmilywq.WQBackgroundLocateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +626,12 @@
 		};
 		46FBC1FA1F3BF5C4007BB4CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B885BBB186B1EAF0806203 /* Pods-WQBackgroundLocateDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E4UXBJ6TS;
 				INFOPLIST_FILE = WQBackgroundLocateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shmilywq.WQBackgroundLocateDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +640,7 @@
 		};
 		46FBC1FC1F3BF5C4007BB4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FDC9419ED8241A7A46BDE7 /* Pods-WQBackgroundLocateDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WQBackgroundLocateDemoTests/Info.plist;
@@ -458,6 +653,7 @@
 		};
 		46FBC1FD1F3BF5C4007BB4CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C80B587999E7B6FC99A890B /* Pods-WQBackgroundLocateDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WQBackgroundLocateDemoTests/Info.plist;
@@ -470,6 +666,7 @@
 		};
 		46FBC1FF1F3BF5C4007BB4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCFDC2E8BE59A1F5288C925 /* Pods-WQBackgroundLocateDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WQBackgroundLocateDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +678,7 @@
 		};
 		46FBC2001F3BF5C4007BB4CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844820E473E559ADDE114470 /* Pods-WQBackgroundLocateDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WQBackgroundLocateDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
