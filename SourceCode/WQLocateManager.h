@@ -3,28 +3,37 @@
 //  WQBackgroundLocateDemo
 //
 //  Created by shmily on 2017/8/10.
-//  Copyright © 2017年 shmily. All rights reserved.
+//  Copyright © 2017年 NotHY. All rights reserved.
 //
-
+/*
+ * 定位功能的管理者
+ */
 #import <Foundation/Foundation.h>
-#import <BaiduMapAPI_Location/BMKLocationComponent.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+
+@class WQLocateManager;
 
 @interface WQLocateManager : NSObject
 
 /**
- 初始化单例对象
-
- @return 初始化结果
+  初始化单例对象
  */
 + (WQLocateManager *)shareManager;
 
 /**
- 启动百度地图的引擎,注:如果在其他地方已经启动了百度地图的引擎,这里可以不调用
-
- @param key      申请的有效key
- @param delegate 代理
+ 开始后台定位
  */
-- (void)startBMKWithKey:(NSString *)key generalDelegate:(id<BMKGeneralDelegate>)delegate;
+- (void)startBackgroundLocationSever;
+
+/**
+ 结束后台定位
+ */
+- (void)stopBackgroundLocationSever;
+
+/**
+ 定位结果数组
+ */
+@property (nonatomic, strong) NSMutableArray *pointsArr;
 
 
 @end

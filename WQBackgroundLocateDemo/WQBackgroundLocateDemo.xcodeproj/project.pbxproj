@@ -16,7 +16,9 @@
 		46FBC1DE1F3BF5C4007BB4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FBC1DC1F3BF5C4007BB4CC /* LaunchScreen.storyboard */; };
 		46FBC1E91F3BF5C4007BB4CC /* WQBackgroundLocateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1E81F3BF5C4007BB4CC /* WQBackgroundLocateDemoTests.m */; };
 		46FBC1F41F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC1F31F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m */; };
-		46FBC2071F3C07D9007BB4CC /* WQLocateManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46FBC2061F3C07D9007BB4CC /* WQLocateManager.mm */; };
+		46FC741A1F45720E0068EB4E /* WQTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC74121F45720E0068EB4E /* WQTrackViewController.m */; };
+		46FC741B1F45720E0068EB4E /* WQLocateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC74151F45720E0068EB4E /* WQLocateModel.m */; };
+		46FC741D1F45720E0068EB4E /* WQLocateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC74191F45720E0068EB4E /* WQLocateManager.m */; };
 		CB7607DE19241A1A4ECC8879 /* libPods-WQBackgroundLocateDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AF122CE6A0A1C1CB1DEF8D /* libPods-WQBackgroundLocateDemoTests.a */; };
 		E39944E878555BFCFCB19A35 /* libPods-WQBackgroundLocateDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B30774EA1D76DC7B8F636480 /* libPods-WQBackgroundLocateDemoUITests.a */; };
 /* End PBXBuildFile section */
@@ -57,9 +59,13 @@
 		46FBC1EF1F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQBackgroundLocateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FBC1F31F3BF5C4007BB4CC /* WQBackgroundLocateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQBackgroundLocateDemoUITests.m; sourceTree = "<group>"; };
 		46FBC1F51F3BF5C4007BB4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46FBC2051F3C07D9007BB4CC /* WQLocateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLocateManager.h; sourceTree = "<group>"; };
-		46FBC2061F3C07D9007BB4CC /* WQLocateManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WQLocateManager.mm; sourceTree = "<group>"; };
 		46FBC2081F3C0F13007BB4CC /* WQBackgroundLocate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQBackgroundLocate.h; sourceTree = "<group>"; };
+		46FC74111F45720E0068EB4E /* WQTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQTrackViewController.h; sourceTree = "<group>"; };
+		46FC74121F45720E0068EB4E /* WQTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQTrackViewController.m; sourceTree = "<group>"; };
+		46FC74141F45720E0068EB4E /* WQLocateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLocateModel.h; sourceTree = "<group>"; };
+		46FC74151F45720E0068EB4E /* WQLocateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLocateModel.m; sourceTree = "<group>"; };
+		46FC74181F45720E0068EB4E /* WQLocateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQLocateManager.h; sourceTree = "<group>"; };
+		46FC74191F45720E0068EB4E /* WQLocateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQLocateManager.m; sourceTree = "<group>"; };
 		66FDC9419ED8241A7A46BDE7 /* Pods-WQBackgroundLocateDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoTests/Pods-WQBackgroundLocateDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		844820E473E559ADDE114470 /* Pods-WQBackgroundLocateDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9DCFDC2E8BE59A1F5288C925 /* Pods-WQBackgroundLocateDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQBackgroundLocateDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQBackgroundLocateDemoUITests/Pods-WQBackgroundLocateDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,12 +194,32 @@
 		46FBC2011F3C041D007BB4CC /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
-				46FBC2051F3C07D9007BB4CC /* WQLocateManager.h */,
-				46FBC2061F3C07D9007BB4CC /* WQLocateManager.mm */,
 				46FBC2081F3C0F13007BB4CC /* WQBackgroundLocate.h */,
+				46FC74181F45720E0068EB4E /* WQLocateManager.h */,
+				46FC74191F45720E0068EB4E /* WQLocateManager.m */,
+				46FC74101F45720E0068EB4E /* Controller */,
+				46FC74131F45720E0068EB4E /* Model */,
 			);
 			name = SourceCode;
 			path = ../SourceCode;
+			sourceTree = "<group>";
+		};
+		46FC74101F45720E0068EB4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46FC74111F45720E0068EB4E /* WQTrackViewController.h */,
+				46FC74121F45720E0068EB4E /* WQTrackViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46FC74131F45720E0068EB4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46FC74141F45720E0068EB4E /* WQLocateModel.h */,
+				46FC74151F45720E0068EB4E /* WQLocateModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +300,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 8E4UXBJ6TS;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					46FBC1E31F3BF5C4007BB4CC = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -479,8 +510,10 @@
 			files = (
 				46FBC1D61F3BF5C4007BB4CC /* ViewController.m in Sources */,
 				46FBC1D31F3BF5C4007BB4CC /* AppDelegate.m in Sources */,
+				46FC741A1F45720E0068EB4E /* WQTrackViewController.m in Sources */,
 				46FBC1D01F3BF5C4007BB4CC /* main.m in Sources */,
-				46FBC2071F3C07D9007BB4CC /* WQLocateManager.mm in Sources */,
+				46FC741B1F45720E0068EB4E /* WQLocateModel.m in Sources */,
+				46FC741D1F45720E0068EB4E /* WQLocateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

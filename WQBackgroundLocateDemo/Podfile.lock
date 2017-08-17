@@ -1,12 +1,19 @@
 PODS:
-  - BaiduMapKit (3.3.4)
+  - AMap2DMap-NO-IDFA (4.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.4.0)
+  - AMapLocation-NO-IDFA (2.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
 
 DEPENDENCIES:
-  - BaiduMapKit (~> 3.3.4)
+  - AMap2DMap-NO-IDFA (~> 4.6.0)
+  - AMapLocation-NO-IDFA (~> 2.4.0)
 
 SPEC CHECKSUMS:
-  BaiduMapKit: 6f2d76a04b72e9af938afb5ca0f97d4417bbf9c0
+  AMap2DMap-NO-IDFA: 01c80e7e93568617b1b1b452cfec71f974f5bc8a
+  AMapFoundation-NO-IDFA: d1ba541a56737c2048115a745b1dfcbe9901c248
+  AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
 
-PODFILE CHECKSUM: 5feb9e60701909d89c311417a564de909f2343fc
+PODFILE CHECKSUM: ddaab35c3047c09b3d81c642d0b7cee060abe18a
 
 COCOAPODS: 1.2.1

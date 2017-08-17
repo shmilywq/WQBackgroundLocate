@@ -6,7 +6,8 @@ target 'WQBackgroundLocateDemo' do
   # use_frameworks!
  
   # Pods for WQBackgroundLocateDemo
-pod 'BaiduMapKit', '~> 3.3.4'
+  pod 'AMap2DMap-NO-IDFA', '~> 4.6.0'
+  pod 'AMapLocation-NO-IDFA', '~> 2.4.0'
 
   target 'WQBackgroundLocateDemoTests' do
     inherit! :search_paths
