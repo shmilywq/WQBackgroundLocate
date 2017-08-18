@@ -8,6 +8,10 @@
 /*
  * 定位功能的管理者
  */
+
+/*
+ 重点请看README文件
+ */
 #import <Foundation/Foundation.h>
 #import <AMapLocationKit/AMapLocationKit.h>
 

@@ -5,7 +5,9 @@
 //  Created by shmily on 2017/8/10.
 //  Copyright © 2017年 NotHY. All rights reserved.
 //
-
+/*
+ 重点请看README文件
+ */
 #import "WQLocateManager.h"
 #import <AMapLocationKit/AMapLocationKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
